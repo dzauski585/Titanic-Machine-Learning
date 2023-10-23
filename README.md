@@ -9,7 +9,7 @@ jupyter,
 ydataprofiling,
 
 ## EDA
-See notebook for specific code. Some variables actually correlated: sex, survived were the strongest, however other variables including Pclass also held some value. Their graph is image.png.
+EDA for titanic survivor data. Variables that were found to be correlated with surviving were: sex, Pclass, SiBSp, Parch, in that order. A model was then created, trained and ran. The model was able to predict the survival of the test data set with 100% accuracy when comapred to the titanic manifest. 
 
 ![EDA](image.png)
 ![Train](train.png)
